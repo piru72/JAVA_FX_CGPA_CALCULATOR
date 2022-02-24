@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="files.MainController">
    <children>
       <TabPane layoutX="154.0" layoutY="106.0" prefHeight="486.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <tabs>
@@ -19,64 +19,64 @@
                      <children>
                         <HBox layoutX="14.0" layoutY="35.0" prefHeight="26.0" prefWidth="476.0">
                            <children>
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: red;" />
-                              <TextField prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: red;" />
-                              <TextField prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: red;" />
+                              <TextField alignment="CENTER" editable="false" style="-fx-background-color: red;" text="TItle (optional)" />
+                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: red;" text="Grade" />
+                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: red;" text="Credits" />
+                              <TextField editable="false" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: red;" text="Quality points" />
                            </children>
                         </HBox>
                         <VBox layoutX="14.0" layoutY="76.0">
                            <children>
-                              <TextField prefWidth="152.0" style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
-                              <TextField style="-fx-background-color: red;" text="Title (Optional)" />
+                              <TextField fx:id="course1" alignment="CENTER" prefWidth="152.0" style="-fx-background-color: red;" text="Course 1" />
+                              <TextField fx:id="course2" alignment="CENTER" style="-fx-background-color: red;" text="Course 2" />
+                              <TextField fx:id="course3" alignment="CENTER" style="-fx-background-color: red;" text="Course 3" />
+                              <TextField fx:id="course4" alignment="CENTER" style="-fx-background-color: red;" text="Course 4" />
+                              <TextField fx:id="course5" alignment="CENTER" style="-fx-background-color: red;" text="Course 5" />
+                              <TextField fx:id="course6" alignment="CENTER" style="-fx-background-color: red;" text="Course 6" />
+                              <TextField fx:id="course7" alignment="CENTER" style="-fx-background-color: red;" text="Course 7" />
+                              <TextField fx:id="course8" alignment="CENTER" style="-fx-background-color: red;" text="Course 8" />
+                              <TextField fx:id="course9" alignment="CENTER" style="-fx-background-color: red;" text="course 9" />
+                              <TextField fx:id="course10" alignment="CENTER" style="-fx-background-color: red;" text="course 10" />
                            </children>
                         </VBox>
-                        <VBox layoutX="277.0" layoutY="76.0" prefHeight="260.0" prefWidth="115.0">
+                        <VBox layoutX="284.0" layoutY="76.0" prefHeight="260.0" prefWidth="103.0">
                            <children>
-                              <TextField prefWidth="152.0" style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
+                              <TextField fx:id="credit1" prefWidth="152.0" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit2" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit3" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit4" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit5" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit6" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit7" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit8" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit9" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit10" promptText="enter credit" style="-fx-background-color: red;" />
                            </children>
                         </VBox>
                         <VBox layoutX="392.0" layoutY="76.0" prefHeight="260.0" prefWidth="100.0">
                            <children>
-                              <TextField prefWidth="152.0" style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
-                              <TextField style="-fx-background-color: red;" />
+                              <TextField editable="false" prefWidth="152.0" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
+                              <TextField editable="false" style="-fx-background-color: red;" />
                            </children>
                         </VBox>
                         <Label layoutX="14.0" layoutY="352.0" prefHeight="26.0" prefWidth="154.0" text="Include current GPA (optional)" />
-                        <TextField layoutX="176.0" layoutY="352.0" prefHeight="9.0" prefWidth="84.0" style="-fx-background-color: red;" />
-                        <TextField layoutX="176.0" layoutY="384.0" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: red;" />
+                        <TextField fx:id="currentCgpa" layoutX="176.0" layoutY="352.0" prefHeight="9.0" prefWidth="84.0" style="-fx-background-color: red;" />
+                        <TextField fx:id="currentCredit" layoutX="176.0" layoutY="384.0" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: red;" />
                         <Button layoutX="286.0" layoutY="362.0" mnemonicParsing="false" text="For 10 course" />
                         <Label layoutX="14.0" layoutY="384.0" prefHeight="26.0" prefWidth="153.0" text="Include current GPA (optional)" />
-                        <Button layoutX="393.0" layoutY="362.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="98.0" text="Button" />
+                        <Button fx:id="resetButton" layoutX="393.0" layoutY="362.0" mnemonicParsing="false" onAction="#resetAction" prefHeight="32.0" prefWidth="98.0" text="Reset" />
                         <HBox layoutX="78.0" layoutY="434.0">
                            <children>
-                              <TextField prefHeight="42.0" prefWidth="177.0" />
-                              <TextField prefHeight="42.0" prefWidth="172.0" />
+                              <TextField editable="false" prefHeight="42.0" prefWidth="177.0" text="CGPA" />
+                              <TextField editable="false" prefHeight="42.0" prefWidth="172.0" text="0.00" />
                            </children>
                         </HBox>
                      </children>
