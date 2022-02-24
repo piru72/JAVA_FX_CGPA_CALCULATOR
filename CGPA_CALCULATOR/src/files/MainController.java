@@ -207,501 +207,603 @@ public class MainController implements Initializable, courseInfo {
     @FXML
     private void grade1_1Action(ActionEvent event) {
         grade1.setText("4");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
+        
+        
     }
 
     @FXML
     private void grade1_2Action(ActionEvent event) {
         grade1.setText("3.75");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_3Action(ActionEvent event) {
         grade1.setText("3.50");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_4Action(ActionEvent event) {
         grade1.setText("3.25");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_5Action(ActionEvent event) {
         grade1.setText("3.00");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_6Action(ActionEvent event) {
         grade1.setText("2.75");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_7Action(ActionEvent event) {
         grade1.setText("2.50");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_8Action(ActionEvent event) {
         grade1.setText("2.25");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_9Action(ActionEvent event) {
         grade1.setText("2.00");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
 
     @FXML
     private void grade1_10Action(ActionEvent event) {
         grade1.setText("0.00");
+        quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
-
+//
     @FXML
     private void grade2_1Action(ActionEvent event) {
         grade2.setText("4");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_2Action(ActionEvent event) {
         grade2.setText("3.75");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_3Action(ActionEvent event) {
         grade2.setText("3.50");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_4Action(ActionEvent event) {
         grade2.setText("3.25");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_5Action(ActionEvent event) {
         grade2.setText("3.00");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_6Action(ActionEvent event) {
         grade2.setText("2.75");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_7Action(ActionEvent event) {
         grade2.setText("2.50");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_8Action(ActionEvent event) {
         grade2.setText("2.25");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_9Action(ActionEvent event) {
         grade2.setText("2.00");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade2_10Action(ActionEvent event) {
         grade2.setText("0.00");
+        quality2.setText(Double.toString(Double.parseDouble(grade2.getText()) * Double.parseDouble(credit2.getText())));
     }
 
     @FXML
     private void grade3_1Action(ActionEvent event) {
         grade3.setText("4");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_2Action(ActionEvent event) {
         grade3.setText("3.75");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_3Action(ActionEvent event) {
         grade3.setText("3.50");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_4Action(ActionEvent event) {
         grade3.setText("3.25");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_5Action(ActionEvent event) {
         grade3.setText("3.00");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_6Action(ActionEvent event) {
         grade3.setText("2.75");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_7Action(ActionEvent event) {
         grade3.setText("2.50");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_8Action(ActionEvent event) {
         grade3.setText("2.25");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_9Action(ActionEvent event) {
         grade3.setText("2.00");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade3_10Action(ActionEvent event) {
         grade3.setText("0.00");
+        quality3.setText(Double.toString(Double.parseDouble(grade3.getText()) * Double.parseDouble(credit3.getText())));
     }
 
     @FXML
     private void grade4_1Action(ActionEvent event) {
         grade4.setText("4");
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_2Action(ActionEvent event) {
         grade4.setText("3.75");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_3Action(ActionEvent event) {
         grade4.setText("3.50");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_4Action(ActionEvent event) {
         grade4.setText("3.25");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_5Action(ActionEvent event) {
         grade4.setText("3.00");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_6Action(ActionEvent event) {
         grade4.setText("2.75");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_7Action(ActionEvent event) {
         grade4.setText("2.50");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_8Action(ActionEvent event) {
         grade4.setText("2.25");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_9Action(ActionEvent event) {
         grade4.setText("2.00");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_10Action(ActionEvent event) {
         grade4.setText("0.00");
+         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade5_1Action(ActionEvent event) {
         grade5.setText("4");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_2Action(ActionEvent event) {
         grade5.setText("3.75");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_3Action(ActionEvent event) {
         grade5.setText("3.50");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_4Action(ActionEvent event) {
         grade5.setText("3.25");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_5Action(ActionEvent event) {
         grade5.setText("3.00");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_6Action(ActionEvent event) {
         grade5.setText("2.75");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_7Action(ActionEvent event) {
         grade5.setText("2.50");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_8Action(ActionEvent event) {
         grade5.setText("2.25");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_9Action(ActionEvent event) {
         grade5.setText("2.00");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade5_10Action(ActionEvent event) {
         grade5.setText("0.00");
+        quality5.setText(Double.toString(Double.parseDouble(grade5.getText()) * Double.parseDouble(credit5.getText())));
     }
 
     @FXML
     private void grade6_1Action(ActionEvent event) {
         grade6.setText("4");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_2Action(ActionEvent event) {
         grade6.setText("3.75");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_3Action(ActionEvent event) {
         grade6.setText("3.50");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_4Action(ActionEvent event) {
         grade6.setText("3.25");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_5Action(ActionEvent event) {
         grade6.setText("3.00");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_6Action(ActionEvent event) {
         grade6.setText("2.75");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_7Action(ActionEvent event) {
         grade6.setText("2.50");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_8Action(ActionEvent event) {
         grade6.setText("2.25");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_9Action(ActionEvent event) {
         grade6.setText("2.00");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade6_10Action(ActionEvent event) {
         grade6.setText("0.00");
+        quality6.setText(Double.toString(Double.parseDouble(grade6.getText()) * Double.parseDouble(credit6.getText())));
     }
 
     @FXML
     private void grade7_1Action(ActionEvent event) {
         grade7.setText("4");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_2Action(ActionEvent event) {
         grade7.setText("3.75");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_3Action(ActionEvent event) {
         grade7.setText("3.50");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_4Action(ActionEvent event) {
         grade7.setText("3.25");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_5Action(ActionEvent event) {
         grade7.setText("3.00");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_6Action(ActionEvent event) {
         grade7.setText("2.75");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_7Action(ActionEvent event) {
         grade7.setText("2.50");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_8Action(ActionEvent event) {
         grade7.setText("2.25");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_9Action(ActionEvent event) {
         grade7.setText("2.00");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade7_10Action(ActionEvent event) {
         grade7.setText("0.00");
+        quality7.setText(Double.toString(Double.parseDouble(grade7.getText()) * Double.parseDouble(credit7.getText())));
     }
 
     @FXML
     private void grade8_1Action(ActionEvent event) {
         grade8.setText("4");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_2Action(ActionEvent event) {
         grade8.setText("3.75");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_3Action(ActionEvent event) {
         grade8.setText("3.50");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_4Action(ActionEvent event) {
         grade8.setText("3.25");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_5Action(ActionEvent event) {
         grade8.setText("3.00");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_6Action(ActionEvent event) {
         grade8.setText("2.75");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_7Action(ActionEvent event) {
         grade8.setText("2.50");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_8Action(ActionEvent event) {
         grade8.setText("2.25");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_9Action(ActionEvent event) {
         grade8.setText("2.00");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade8_10Action(ActionEvent event) {
         grade8.setText("0.00");
+        quality8.setText(Double.toString(Double.parseDouble(grade8.getText()) * Double.parseDouble(credit8.getText())));
     }
 
     @FXML
     private void grade9_1Action(ActionEvent event) {
         grade9.setText("4");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_2Action(ActionEvent event) {
         grade9.setText("3.75");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_3Action(ActionEvent event) {
         grade9.setText("3.50");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_4Action(ActionEvent event) {
         grade9.setText("3.25");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_5Action(ActionEvent event) {
         grade9.setText("3.00");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_6Action(ActionEvent event) {
         grade9.setText("2.75");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_7Action(ActionEvent event) {
         grade9.setText("2.50");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_8Action(ActionEvent event) {
         grade9.setText("2.25");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_9Action(ActionEvent event) {
         grade9.setText("2.00");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade9_10Action(ActionEvent event) {
         grade9.setText("0.00");
+        quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
     @FXML
     private void grade10_1Action(ActionEvent event) {
         grade10.setText("4");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_2Action(ActionEvent event) {
         grade10.setText("3.75");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_3Action(ActionEvent event) {
         grade10.setText("3.50");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_4Action(ActionEvent event) {
         grade10.setText("3.25");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_5Action(ActionEvent event) {
         grade10.setText("3.00");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_6Action(ActionEvent event) {
         grade10.setText("2.75");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_7Action(ActionEvent event) {
         grade10.setText("2.50");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_8Action(ActionEvent event) {
         grade10.setText("2.25");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_9Action(ActionEvent event) {
         grade10.setText("2.00");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
     private void grade10_10Action(ActionEvent event) {
         grade10.setText("0.00");
+        quality10.setText(Double.toString(Double.parseDouble(grade10.getText()) * Double.parseDouble(credit10.getText())));
     }
 
     @FXML
