@@ -1,0 +1,92 @@
+String course1_1_1 = "HUM1107";
+String course2_1_1 = "HUM1108";
+String course3_1_1 = "MATH1115";
+String course4_1_1 = "PHY1115";
+String course5_1_1 = "PHY1116";
+String course6_1_1 = "CHEM1115";
+String course7_1_1 = "CSE1101";
+String course8_1_1 = "CSE1102";
+String course9_1_1 = "CSE1108";
+
+
+String credit1_1_1 = "3.0";
+String credit2_1_1 = "1.5";
+String credit3_1_1 = "3.0";
+String credit4_1_1 = "3.0";
+String credit5_1_1 = ".75";
+String credit6_1_1 = "3.0";
+String credit7_1_1 = "3.0";
+String credit8_1_1 = "1.5";
+String credit9_1_1 = "1.5";
+
+
+
+String credit1_1_1 = "3.0";
+String credit2_1_1 = "1.5";
+String credit3_1_1 = "3.0";
+String credit4_1_1 = "3.0";
+String credit5_1_1 = ".75";
+String credit6_1_1 = "3.0";
+String credit7_1_1 = "3.0";
+String credit8_1_1 = "1.5";
+String credit9_1_1 = "1.5";
+
+
+
+ Critical Thinking and Communication 3-0 3 45
+ English Language Sessional 0-3 1.5 45
+ Mathematics-I 3-0 3 45
+ Physics 3-0 3 46
+ Physics Lab 0-3/2 0.75 47
+ Chemistry 3-0 3 47
+ Elementary Structured Programming 3-0 3 20
+ Elementary Structured Programming Lab 0-3 1.5 20
+Introduction to Computer Systems 0-3 1.5 20
+
+
+        course1.setText(course1_1_1);
+        course2.setText(course2_1_1);
+        course3.setText(course3_1_1);
+        course4.setText(course4_1_1);
+        course5.setText(course5_1_1);
+        course6.setText(course6_1_1);
+        course7.setText(course7_1_1);
+        course8.setText(course8_1_1);
+        course9.setText(course9_1_1);
+        course10.setText(course9_1_1);
+
+        credit1.setText(credit1_1_1);
+        credit2.setText(credit2_1_1);
+        credit3.setText(credit3_1_1);
+        credit4.setText(credit4_1_1);
+        credit5.setText(credit5_1_1);
+        credit6.setText(credit6_1_1);
+        credit7.setText(credit7_1_1);
+        credit8.setText(credit8_1_1);
+        credit9.setText(credit9_1_1);
+        credit10.setText(credit10_1_1);
+
+
+    public String course2_1_1 = "HUM1108";
+    public String course1_1_1 = "HUM1107";
+    public String course3_1_1 = "MATH1115";
+    public String course4_1_1 = "PHY1115";
+    public String course5_1_1 = "PHY1116";
+    public String course6_1_1 = "CHEM1115";
+    public String course7_1_1 = "CSE1101";
+    public String course8_1_1 = "CSE1102";
+    public String course9_1_1 = "CSE1108";
+
+    public String credit1_1_1 = "3.0";
+    public String credit2_1_1 = "1.5";
+    public String credit3_1_1 = "3.0";
+    public String credit4_1_1 = "3.0";
+    public String credit5_1_1 = ".75";
+    public String credit6_1_1 = "3.0";
+    public String credit7_1_1 = "3.0";
+    public String credit8_1_1 = "1.5";
+    public String credit9_1_1 = "1.5";
+
+
+
+
