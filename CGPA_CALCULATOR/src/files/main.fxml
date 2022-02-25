@@ -77,7 +77,7 @@
                         <HBox layoutX="74.0" layoutY="512.0">
                            <children>
                               <TextField editable="false" prefHeight="42.0" prefWidth="177.0" text="CGPA" />
-                              <TextField editable="false" prefHeight="42.0" prefWidth="172.0" text="0.00" />
+                              <TextField fx:id="cgpaField" editable="false" prefHeight="42.0" prefWidth="172.0" text="0.00" />
                            </children>
                         </HBox>
                         <VBox layoutX="176.0" layoutY="80.0" />

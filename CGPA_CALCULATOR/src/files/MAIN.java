@@ -29,6 +29,8 @@ public class MAIN extends Application {
 
         Scene scene = new Scene(root);
 
+        
+
         primaryStage.setTitle("ALL ABOUT CGPA");
         primaryStage.setScene(scene);
         primaryStage.show();
