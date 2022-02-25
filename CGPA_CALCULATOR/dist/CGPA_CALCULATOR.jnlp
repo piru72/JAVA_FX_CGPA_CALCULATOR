@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CGPA_CALCULATOR.jar" size="11409" download="eager" />
+    <jar href="CGPA_CALCULATOR.jar" size="11731" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="files.MAIN"  name="CGPA_CALCULATOR" />
   <update check="always"/>

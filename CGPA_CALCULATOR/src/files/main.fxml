@@ -11,77 +11,77 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="files.MainController">
+<AnchorPane id="AnchorPane" prefHeight="596.0" prefWidth="514.0" style="-fx-background-color: #051367;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="files.MainController">
    <children>
-      <TabPane layoutX="154.0" layoutY="106.0" prefHeight="486.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <TabPane layoutX="154.0" layoutY="106.0" prefHeight="486.0" prefWidth="600.0" style="-fx-background-color: #051367;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <tabs>
           <Tab text="CGPA CALCULATOR">
                <content>
-                  <AnchorPane>
+                  <AnchorPane style="-fx-background-color: #5D8BF5;">
                      <children>
                         <HBox layoutX="12.0" layoutY="50.0" prefHeight="30.0" prefWidth="490.0">
                            <children>
-                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="220.0" style="-fx-background-color: red;" text="TItle (optional)" />
-                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: red;" text="Grade" />
-                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: red;" text="Credits" />
-                              <TextField editable="false" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: red;" text="Quality points" />
+                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="220.0" style="-fx-background-color: #DFF6FF;" text="TItle (optional)" />
+                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #DFF6FF;" text="Grade" />
+                              <TextField alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: #DFF6FF;" text="Credits" />
+                              <TextField editable="false" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="Quality points" />
                            </children>
                         </HBox>
                         <VBox layoutX="11.0" layoutY="85.0" prefHeight="303.0" prefWidth="152.0">
                            <children>
-                              <TextField fx:id="course1" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 1" />
-                              <TextField fx:id="course2" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 2" />
-                              <TextField fx:id="course3" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 3" />
-                              <TextField fx:id="course4" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 4" />
-                              <TextField fx:id="course5" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 5" />
-                              <TextField fx:id="course6" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 6" />
-                              <TextField fx:id="course7" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 7" />
-                              <TextField fx:id="course8" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="Course 8" />
-                              <TextField fx:id="course9" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="course 9" />
-                              <TextField fx:id="course10" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" text="course 10" />
+                              <TextField fx:id="course1" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 1" />
+                              <TextField fx:id="course2" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 2" />
+                              <TextField fx:id="course3" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 3" />
+                              <TextField fx:id="course4" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 4" />
+                              <TextField fx:id="course5" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 5" />
+                              <TextField fx:id="course6" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 6" />
+                              <TextField fx:id="course7" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 7" />
+                              <TextField fx:id="course8" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="Course 8" />
+                              <TextField fx:id="course9" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="course 9" />
+                              <TextField fx:id="course10" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" text="course 10" />
                            </children>
                         </VBox>
                         <VBox layoutX="285.0" layoutY="87.0" prefHeight="299.0" prefWidth="118.0">
                            <children>
-                              <TextField fx:id="credit1" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="103.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit2" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit3" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit4" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit5" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit6" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit7" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit8" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit9" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
-                              <TextField fx:id="credit10" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: red;" />
+                              <TextField fx:id="credit1" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="103.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit2" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit3" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit4" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit5" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit6" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit7" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit8" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit9" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="credit10" alignment="CENTER" editable="false" prefHeight="30.0" promptText="enter credit" style="-fx-background-color: #DFF6FF;" />
                            </children>
                         </VBox>
                         <VBox layoutX="412.0" layoutY="87.0" prefHeight="299.0" prefWidth="88.0">
                            <children>
-                              <TextField fx:id="quality1" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality2" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality3" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality4" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality5" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality6" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality7" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality8" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality9" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
-                              <TextField fx:id="quality10" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: red;" />
+                              <TextField fx:id="quality1" alignment="CENTER" editable="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality2" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality3" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality4" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality5" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality6" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality7" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality8" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality9" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
+                              <TextField fx:id="quality10" alignment="CENTER" editable="false" prefHeight="30.0" style="-fx-background-color: #DFF6FF;" />
                            </children>
                         </VBox>
-                        <Label layoutX="11.0" layoutY="431.0" prefHeight="26.0" prefWidth="185.0" text="Include current GPA (optional)" />
-                        <TextField fx:id="currentCgpa" layoutX="251.0" layoutY="430.0" prefHeight="28.0" prefWidth="114.0" style="-fx-background-color: red;" />
-                        <TextField fx:id="currentCredit" layoutX="251.0" layoutY="461.0" prefHeight="28.0" prefWidth="114.0" style="-fx-background-color: red;" />
-                        <Label layoutX="9.0" layoutY="464.0" prefHeight="22.0" prefWidth="190.0" text="Include current Credit(optional)" />
-                        <Button fx:id="resetButton" layoutX="375.0" layoutY="429.0" mnemonicParsing="false" onAction="#resetAction" prefHeight="29.0" prefWidth="128.0" text="Reset" />
-                        <HBox layoutX="74.0" layoutY="512.0">
+                        <Label layoutX="11.0" layoutY="431.0" prefHeight="26.0" prefWidth="185.0" text="Include current GPA (optional)" visible="false" />
+                        <TextField fx:id="currentCgpa" layoutX="251.0" layoutY="430.0" prefHeight="28.0" prefWidth="114.0" style="-fx-background-color: red;" visible="false" />
+                        <TextField fx:id="currentCredit" layoutX="251.0" layoutY="461.0" prefHeight="28.0" prefWidth="114.0" style="-fx-background-color: red;" visible="false" />
+                        <Label layoutX="9.0" layoutY="464.0" prefHeight="22.0" prefWidth="190.0" text="Include current Credit(optional)" visible="false" />
+                        <Button fx:id="resetButton" layoutX="261.0" layoutY="429.0" mnemonicParsing="false" onAction="#resetAction" prefHeight="29.0" prefWidth="236.0" style="-fx-background-color: #DFF6FF;" text="Reset" />
+                        <HBox layoutX="83.0" layoutY="475.0">
                            <children>
                               <TextField editable="false" prefHeight="42.0" prefWidth="177.0" text="CGPA" />
                               <TextField fx:id="cgpaField" editable="false" prefHeight="42.0" prefWidth="172.0" text="0.00" />
                            </children>
                         </HBox>
                         <VBox layoutX="176.0" layoutY="80.0" />
-                        <MenuButton alignment="CENTER" blendMode="DARKEN" layoutX="11.0" layoutY="17.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="490.0" text="Choose Your semester First" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                        <MenuButton alignment="CENTER" layoutX="11.0" layoutY="17.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="490.0" style="-fx-background-color: #DFF6FF;" text="Choose Your semester First" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                            <items>
                               <MenuItem fx:id="semester1" mnemonicParsing="false" onAction="#semester1Action" text="1st Year 1st Semester" />
                               <MenuItem mnemonicParsing="false" onAction="#semester2Action" text="1st Year 2nd Semester" />
@@ -95,7 +95,7 @@
                         </MenuButton>
                         <VBox layoutX="176.0" layoutY="87.0">
                            <children>
-                              <MenuButton fx:id="grade1" alignment="CENTER" blendMode="DARKEN" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade1" alignment="CENTER" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade1_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade1_2Action" text="A   (75% to less than 80%)" />
@@ -109,7 +109,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade1_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade2" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade2" alignment="CENTER" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade2_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade2_2Action" text="A   (75% to less than 80%)" />
@@ -123,7 +123,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade2_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade3" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="40.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade3" alignment="CENTER" layoutX="10.0" layoutY="40.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade3_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade3_2Action" text="A   (75% to less than 80%)" />
@@ -137,7 +137,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade3_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade4" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="70.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade4" alignment="CENTER" layoutX="10.0" layoutY="70.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade4_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade4_2Action" text="A   (75% to less than 80%)" />
@@ -151,7 +151,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade4_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade5" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="100.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade5" alignment="CENTER" layoutX="10.0" layoutY="100.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade5_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade5_2Action" text="A   (75% to less than 80%)" />
@@ -165,7 +165,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade5_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade6" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="130.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade6" alignment="CENTER" layoutX="10.0" layoutY="130.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade6_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade6_2Action" text="A   (75% to less than 80%)" />
@@ -179,7 +179,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade6_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade7" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="160.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade7" alignment="CENTER" layoutX="10.0" layoutY="160.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade7_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade7_2Action" text="A   (75% to less than 80%)" />
@@ -193,7 +193,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade7_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade8" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="190.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade8" alignment="CENTER" layoutX="10.0" layoutY="190.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade8_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade8_2Action" text="A   (75% to less than 80%)" />
@@ -207,7 +207,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade8_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade9" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="220.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade9" alignment="CENTER" layoutX="10.0" layoutY="220.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade9_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade9_2Action" text="A   (75% to less than 80%)" />
@@ -221,7 +221,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#grade9_10Action" text="F     (Less than 40%)" />
                                  </items>
                               </MenuButton>
-                              <MenuButton fx:id="grade10" alignment="CENTER" blendMode="DARKEN" layoutX="10.0" layoutY="250.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
+                              <MenuButton fx:id="grade10" alignment="CENTER" layoutX="10.0" layoutY="250.0" minHeight="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #DFF6FF;" text="A+" textFill="#030101" textOverrun="WORD_ELLIPSIS" wrapText="true">
                                  <items>
                                     <MenuItem mnemonicParsing="false" onAction="#grade10_1Action" text="A+ (80% or above)" />
                                     <MenuItem mnemonicParsing="false" onAction="#grade10_2Action" text="A   (75% to less than 80%)" />
@@ -237,7 +237,7 @@
                               </MenuButton>
                            </children>
                         </VBox>
-                        <Button fx:id="calculateButton" layoutX="375.0" layoutY="461.0" mnemonicParsing="false" onAction="#calculateAction" prefHeight="29.0" prefWidth="128.0" text="Reset" />
+                        <Button fx:id="calculateButton" layoutX="16.0" layoutY="429.0" mnemonicParsing="false" onAction="#calculateAction" prefHeight="29.0" prefWidth="235.0" style="-fx-background-color: #DFF6FF;" text="Calculate" />
                      </children>
                   </AnchorPane>
                </content>
