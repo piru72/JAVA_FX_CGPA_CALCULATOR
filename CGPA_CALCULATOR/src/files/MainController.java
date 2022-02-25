@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
@@ -205,6 +206,8 @@ public class MainController implements Initializable, courseInfo {
         
         currentCgpa.setText("");
         currentCredit.setText("");
+
+        cgpaField.setText("");
         
         
         
@@ -1072,6 +1075,10 @@ public class MainController implements Initializable, courseInfo {
             
         } catch (Exception e) {
             System.out.println("Error");
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Give input in all the courses");
+            alert.setContentText("Please provide grades for all the courses");
+             alert.showAndWait();
         }
         
     }
