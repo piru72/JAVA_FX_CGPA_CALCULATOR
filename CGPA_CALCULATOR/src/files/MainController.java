@@ -208,8 +208,7 @@ public class MainController implements Initializable, courseInfo {
     private void grade1_1Action(ActionEvent event) {
         grade1.setText("4");
         quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
-        
-        
+
     }
 
     @FXML
@@ -265,7 +264,8 @@ public class MainController implements Initializable, courseInfo {
         grade1.setText("0.00");
         quality1.setText(Double.toString(Double.parseDouble(grade1.getText()) * Double.parseDouble(credit1.getText())));
     }
-//
+
+
     @FXML
     private void grade2_1Action(ActionEvent event) {
         grade2.setText("4");
@@ -395,55 +395,55 @@ public class MainController implements Initializable, courseInfo {
     @FXML
     private void grade4_2Action(ActionEvent event) {
         grade4.setText("3.75");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_3Action(ActionEvent event) {
         grade4.setText("3.50");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_4Action(ActionEvent event) {
         grade4.setText("3.25");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_5Action(ActionEvent event) {
         grade4.setText("3.00");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_6Action(ActionEvent event) {
         grade4.setText("2.75");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_7Action(ActionEvent event) {
         grade4.setText("2.50");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_8Action(ActionEvent event) {
         grade4.setText("2.25");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_9Action(ActionEvent event) {
         grade4.setText("2.00");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
     private void grade4_10Action(ActionEvent event) {
         grade4.setText("0.00");
-         quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
+        quality4.setText(Double.toString(Double.parseDouble(grade4.getText()) * Double.parseDouble(credit4.getText())));
     }
 
     @FXML
@@ -742,7 +742,7 @@ public class MainController implements Initializable, courseInfo {
 
     @FXML
     private void grade9_10Action(ActionEvent event) {
-        grade9.setText("0.00");
+        grade9.setText("0.01");
         quality9.setText(Double.toString(Double.parseDouble(grade9.getText()) * Double.parseDouble(credit9.getText())));
     }
 
@@ -808,30 +808,193 @@ public class MainController implements Initializable, courseInfo {
 
     @FXML
     private void semester2Action(ActionEvent event) {
+
+        course1.setText(course1_1_2);
+        course2.setText(course2_1_2);
+        course3.setText(course3_1_2);
+        course4.setText(course4_1_2);
+        course5.setText(course5_1_2);
+        course6.setText(course6_1_2);
+        course7.setText(course7_1_2);
+        course8.setText(course8_1_2);
+        course9.setText(course9_1_2);
+        course10.setVisible(false);
+        credit1.setText(credit1_1_2);
+        credit2.setText(credit2_1_2);
+        credit3.setText(credit3_1_2);
+        credit4.setText(credit4_1_2);
+        credit5.setText(credit5_1_2);
+        credit6.setText(credit6_1_2);
+        credit7.setText(credit7_1_2);
+        credit8.setText(credit8_1_2);
+        credit9.setText(credit9_1_2);
+        credit10.setVisible(false);
+        grade10.setVisible(false);
+        quality10.setVisible(false);
     }
 
     @FXML
     private void semester3Action(ActionEvent event) {
+         course1.setText(course1_2_1);
+        course2.setText(course2_2_1);
+        course3.setText(course3_2_1);
+        course4.setText(course4_2_1);
+        course5.setText(course5_2_1);
+        course6.setText(course6_2_1);
+        course7.setText(course7_2_1);
+        course8.setText(course8_2_1);
+        course9.setText(course9_2_1);
+
+        course10.setVisible(false);
+        credit1.setText(credit1_2_1);
+        credit2.setText(credit2_2_1);
+        credit3.setText(credit3_2_1);
+        credit4.setText(credit4_2_1);
+        credit5.setText(credit5_2_1);
+        credit6.setText(credit6_2_1);
+        credit7.setText(credit7_2_1);
+        credit8.setText(credit8_2_1);
+        credit9.setText(credit9_2_1);
+        credit10.setVisible(false);
+        grade10.setVisible(false);
+        quality10.setVisible(false);
     }
 
     @FXML
     private void semester4Action(ActionEvent event) {
+        course1.setText(course1_2_2);
+        course2.setText(course2_2_2);
+        course3.setText(course3_2_2);
+        course4.setText(course4_2_2);
+        course5.setText(course5_2_2);
+        course6.setText(course6_2_2);
+        course7.setText(course7_2_2);
+        course8.setText(course8_2_2);
+        course9.setText(course9_2_2);
+        course10.setVisible(false);
+
+        credit1.setText(credit1_2_2);
+        credit2.setText(credit2_2_2);
+        credit3.setText(credit3_2_2);
+        credit4.setText(credit4_2_2);
+        credit5.setText(credit5_2_2);
+        credit6.setText(credit6_2_2);
+        credit7.setText(credit7_2_2);
+        credit8.setText(credit8_2_2);
+        credit9.setText(credit9_2_2);
+        credit10.setVisible(false);
+        grade10.setVisible(false);
+        quality10.setVisible(false);
     }
 
     @FXML
     private void semester5Action(ActionEvent event) {
+         course1.setText(course1_3_1);
+        course2.setText(course2_3_1);
+        course3.setText(course3_3_1);
+        course4.setText(course4_3_1);
+        course5.setText(course5_3_1);
+        course6.setText(course6_3_1);
+        course7.setText(course7_3_1);
+        course8.setText(course8_3_1);
+        course9.setText(course9_3_1);
+
+        course10.setVisible(false);
+        credit1.setText(credit1_3_1);
+        credit2.setText(credit2_3_1);
+        credit3.setText(credit3_3_1);
+        credit4.setText(credit4_3_1);
+        credit5.setText(credit5_3_1);
+        credit6.setText(credit6_3_1);
+        credit7.setText(credit7_3_1);
+        credit8.setText(credit8_3_1);
+        credit9.setText(credit9_3_1);
+        credit10.setVisible(false);
+        grade10.setVisible(false);
+        quality10.setVisible(false);
     }
 
     @FXML
     private void semester6Action(ActionEvent event) {
+        course1.setText(course1_3_2);
+        course2.setText(course2_3_2);
+        course3.setText(course3_3_2);
+        course4.setText(course4_3_2);
+        course5.setText(course5_3_2);
+        course6.setText(course6_3_2);
+        course7.setText(course7_3_2);
+        course8.setText(course8_3_2);
+        course9.setText(course9_3_2);
+        course10.setVisible(false);
+
+        credit1.setText(credit1_3_2);
+        credit2.setText(credit2_3_2);
+        credit3.setText(credit3_3_2);
+        credit4.setText(credit4_3_2);
+        credit5.setText(credit5_3_2);
+        credit6.setText(credit6_3_2);
+        credit7.setText(credit7_3_2);
+        credit8.setText(credit8_3_2);
+        credit9.setText(credit9_3_2);
+        credit10.setVisible(false);
+        grade10.setVisible(false);
+        quality10.setVisible(false);
     }
 
     @FXML
     private void semester7Action(ActionEvent event) {
+         course1.setText(course1_4_1);
+        course2.setText(course2_4_1);
+        course3.setText(course3_4_1);
+        course4.setText(course4_4_1);
+        course5.setText(course5_4_1);
+        course6.setText(course6_4_1);
+        course7.setText(course7_4_1);
+        course8.setText(course8_4_1);
+        course9.setText(course9_4_1);
+
+        course10.setVisible(false);
+        credit1.setText(credit1_4_1);
+        credit2.setText(credit2_4_1);
+        credit3.setText(credit3_4_1);
+        credit4.setText(credit4_4_1);
+        credit5.setText(credit5_4_1);
+        credit6.setText(credit6_4_1);
+        credit7.setText(credit7_4_1);
+        credit8.setText(credit8_4_1);
+        credit9.setText(credit9_4_1);
+        credit10.setVisible(false);
+        grade10.setVisible(false);
+        quality10.setVisible(false);
     }
 
     @FXML
     private void semester8Action(ActionEvent event) {
+            course1.setText(course1_4_2);
+            course2.setText(course2_4_2);
+            course3.setText(course3_4_2);
+            course4.setText(course4_4_2);
+            course5.setText(course5_4_2);
+            course6.setText(course6_4_2);
+            course7.setText(course7_4_2);
+            course8.setText(course8_4_2);
+
+            course9.setVisible(false);
+            course10.setVisible(false);
+            credit1.setText(credit1_4_2);
+            credit2.setText(credit2_4_2);
+            credit3.setText(credit3_4_2);
+            credit4.setText(credit4_4_2);
+            credit5.setText(credit5_4_2);
+            credit6.setText(credit6_4_2);
+            credit7.setText(credit7_4_2);
+            credit8.setText(credit8_4_2);
+            credit9.setVisible(false);
+            credit10.setVisible(false);
+            grade9.setVisible(false);
+            grade10.setVisible(false);
+            quality9.setVisible(false);
+            quality10.setVisible(false);
     }
 
     @FXML
