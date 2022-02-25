@@ -34,6 +34,8 @@ public class MAIN extends Application {
         primaryStage.setTitle("ALL ABOUT CGPA");
         primaryStage.setScene(scene);
         primaryStage.show();
+        MainController controller = new MainController();
+        controller.setVisibilityOff();
     }
 
     /**

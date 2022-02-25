@@ -157,6 +157,8 @@ public class MainController implements Initializable, courseInfo {
         course6.setText("Course 6");
         course7.setText("Course 7");
         course8.setText("Course 8");
+        course9.setVisible(true);
+        course10.setVisible(true);
         course9.setText("Course 9");
         course10.setText("Course 10");
         
@@ -168,6 +170,8 @@ public class MainController implements Initializable, courseInfo {
         credit6.setText("");
         credit7.setText("");
         credit8.setText("");
+        credit9.setVisible(true);
+        credit10.setVisible(true);
         credit9.setText("");
         credit10.setText("");
 
@@ -179,6 +183,8 @@ public class MainController implements Initializable, courseInfo {
         grade6.setText("");
         grade7.setText("");
         grade8.setText("");
+        grade9.setVisible(true);
+        grade10.setVisible(true);
         grade9.setText("");
         grade10.setText("");
 
@@ -190,6 +196,8 @@ public class MainController implements Initializable, courseInfo {
         quality6.setText("");
         quality7.setText("");
         quality8.setText("");
+        quality9.setVisible(true);
+        quality10.setVisible(true);
         quality9.setText("");
         quality10.setText("");
 
@@ -197,6 +205,8 @@ public class MainController implements Initializable, courseInfo {
         
         currentCgpa.setText("");
         currentCredit.setText("");
+        
+        
         
     }
     
@@ -1000,6 +1010,9 @@ public class MainController implements Initializable, courseInfo {
         
         grade10.setVisible(true);
         quality10.setVisible(true);
+
+        course9.setVisible(true);
+        course10.setVisible(true);
     }
     
     @FXML
@@ -1065,49 +1078,50 @@ public class MainController implements Initializable, courseInfo {
 
     public void setVisibilityOff()
     {
-        course1.setVisible(false);
-        course2.setVisible(false);
-        course3.setVisible(false);
-        course4.setVisible(false);
-        course5.setVisible(false);
-        course6.setVisible(false);
-        course7.setVisible(false);
-        course8.setVisible(false);
-        course9.setVisible(false);
-        course10.setVisible(false);
+        //course1.setVisible(false);
+        // course2.setVisible(false);
+        // course3.setVisible(false);
+        // course4.setVisible(false);
+        // course5.setVisible(false);
+        // course6.setVisible(false);
+        // course7.setVisible(false);
+        // course8.setVisible(false);
+        // course9.setVisible(false);
+        // course10.setVisible(false);
         
-        credit1.setVisible(false);
-        credit2.setVisible(false);
-        credit3.setVisible(false);
-        credit4.setVisible(false);
-        credit5.setVisible(false);
-        credit6.setVisible(false);
-        credit7.setVisible(false);
-        credit8.setVisible(false);
-        credit9.setVisible(false);
-        credit10.setVisible(false);
+        // credit1.setVisible(false);
+        // credit2.setVisible(false);
+        // credit3.setVisible(false);
+        // credit4.setVisible(false);
+        // credit5.setVisible(false);
+        // credit6.setVisible(false);
+        // credit7.setVisible(false);
+        // credit8.setVisible(false);
+        // credit9.setVisible(false);
+        // credit10.setVisible(false);
         
-        quality1.setVisible(false);
-        quality2.setVisible(false);
-        quality3.setVisible(false);
-        quality4.setVisible(false);
-        quality5.setVisible(false);
-        quality6.setVisible(false);
-        quality7.setVisible(false);
-        quality8.setVisible(false);
-        quality9.setVisible(false);
-        quality10.setVisible(false);
+        // quality1.setVisible(false);
+        // quality2.setVisible(false);
+        // quality3.setVisible(false);
+        // quality4.setVisible(false);
+        // quality5.setVisible(false);
+        // quality6.setVisible(false);
+        // quality7.setVisible(false);
+        // quality8.setVisible(false);
+        // quality9.setVisible(false);
+        // quality10.setVisible(false);
 
-        grade1.setVisible(false);
-        grade2.setVisible(false);
-        grade3.setVisible(false);
-        grade4.setVisible(false);
-        grade5.setVisible(false);
-        grade6.setVisible(false);
-        grade7.setVisible(false);
-        grade8.setVisible(false);
-        grade9.setVisible(false);
-        grade10.setVisible(false);
+        // grade1.setVisible(false);
+        // grade2.setVisible(false);
+        // grade3.setVisible(false);
+        // grade4.setVisible(false);
+        // grade5.setVisible(false);
+        // grade6.setVisible(false);
+        // grade7.setVisible(false);
+        // grade8.setVisible(false);
+        // grade9.setVisible(false);
+        // grade10.setVisible(false);
+        System.out.println("setVisibilityOff");
        
     }
 
